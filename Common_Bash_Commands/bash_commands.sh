@@ -58,4 +58,6 @@ echo "A quick check on what happened."
 
 ls -l
 
+echo "##################"
 echo "That's all, folks."
+echo "##################"
