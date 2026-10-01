@@ -18,7 +18,7 @@ pwd
 
 echo "We want to change current working directory"
 
-cd ~
+cd ~ || return
 
 echo "We've changed it now."
 echo "So we are currently in: "
@@ -31,7 +31,7 @@ ls -l
 
 echo "Ok let's go back to where we were"
 
-cd -
+cd - || return
 
 echo "Change to Root Directory"
 
@@ -41,7 +41,7 @@ pwd
 
 echo "Let's go back"
 
-cd -
+cd - || return
 
 echo "I've forgotten where I am."
 
