@@ -10,48 +10,48 @@
 #How to use:
 #cd directory_name
 
-echo "Lets start: "
+printf "Lets start: "
 
-echo "We are in: "
+printf "We are in: "
 
 pwd
 
-echo "We want to change current working directory"
+printf "We want to change current working directory"
 
 cd ~ || return
 
-echo "We've changed it now."
-echo "So we are currently in: "
+printf "We've changed it now."
+printf "So we are currently in: "
 
 pwd
 
-echo "What is located there?"
+printf "What is located there?"
 
 ls -l
 
-echo "Ok let's go back to where we were"
+printf "Ok let's go back to where we were"
 
 cd - || return
 
-echo "Change to Root Directory"
+printf "Change to Root Directory"
 
 cd /
 
 pwd
 
-echo "Let's go back"
+printf "Let's go back"
 
 cd - || return
 
-echo "I've forgotten where I am."
+printf "I've forgotten where I am."
 
 pwd
 
-echo "A quick check on what happened."
+printf "A quick check on what happened."
 
 ls -l
 
 
 printf "##################"
-echo "That's all, folks."
+printf "That's all, folks."
 printf "##################"
