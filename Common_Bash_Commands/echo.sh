@@ -13,7 +13,7 @@ echo -n "Hello,";echo "World"
 printf  "#####################"
 #Enable Backslash Escapes
 
-echo -e "Hello \nWorld!"
+echo -e "Hello\nWorld!"
 printf "##################"
 #Disable Backslash Escapes
 
