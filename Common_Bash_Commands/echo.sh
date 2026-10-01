@@ -17,7 +17,7 @@ echo -e "Hello\nWorld!"
 printf "##################"
 #Disable Backslash Escapes
 
-echo -E "Hello \nWorld!"
+echo -E "Hello\nWorld!"
 printf "#################"
 echo "Script finished."
 
