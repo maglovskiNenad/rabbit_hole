@@ -10,26 +10,26 @@
 #pwd -P =S Display the physical current working directory (without symbolic links)
 
 
-echo "Starting..."
+printf "Starting..."
 
-echo "Current working directory is: "
+printf "Current working directory is: "
 
 pwd
 
-echo "Logical Path "
+printf "Logical Path "
 pwd -L
 
-echo "Physical Path"
+printf "Physical Path"
 pwd -P
 
-echo "I've forgotten where I am."
+printf "I've forgotten where I am."
 
 pwd
 
-echo "A quick check on what happened."
+printf "A quick check on what happened."
 
 ls -l
 
 printf "##################"
-echo "That's all, folks."
+printf "That's all, folks."
 printf "##################"

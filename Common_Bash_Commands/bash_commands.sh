@@ -16,48 +16,48 @@
 #touch Creating an empty file or update its time
 #mkdir Creata new folder
 
-echo "Starting..."
+printf "Starting..."
 
-echo "Current working directory is: "
+printf "Current working directory is: "
 
 pwd
 
-echo "After that we have List of directory contents"
+printf "After that we have List of directory contents"
 
 ls -l
 
-echo "So let us go to Desktop"
+printf "So let us go to Desktop"
 
 #$HOSTNAME is used to create a unique path for each system based on its hostname.
 #Quotes protect paths containing spaces or special characters.
 cd /home/"${HOSTNAME}"/Desktop || exit
 
-echo "We confirm:"
+printf "We confirm:"
 
 pwd
 
-echo "Create a directory called rabbitHole and checking it."
+printf  "Create a directory called rabbitHole and checking it."
 
 mkdir rabbitHole
 
 ls -l
 
-echo "Since we have shown it, we can now delete it and after that we will confirm what we have just done."
+printf "Since we have shown it, we can now delete it and after that we will confirm what we have just done."
 
 
-echo "Removing rabbitHole..."
+printf "Removing rabbitHole..."
 #Be careful with rm -r because deleted files are not moved to a recycle bin.
 #-r removes a directory recursively, including its contents.
 rm -r rabbitHole
 
-echo "I've forgotten where I am."
+printf "I've forgotten where I am."
 
 pwd
 
-echo "A quick check on what happened."
+printf "A quick check on what happened."
 
 ls -l
 
 printf "##################"
-echo "That's all, folks."
+printf "That's all, folks."
 printf "##################"

@@ -2,5 +2,4 @@
 
 #Simple Script Exemple 
 #run it with bash hallo.sh
-
-echo "Hallo, Bash!"
+printf "Hallo, Bash!"
