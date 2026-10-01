@@ -30,6 +30,6 @@ echo "A quick check on what happened."
 
 ls -l
 
-echo "##################"
+printf "##################"
 echo "That's all, folks."
-echo "##################"
+printf "##################"

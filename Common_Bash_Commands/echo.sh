@@ -8,19 +8,19 @@
 
 #Exemple:
 echo "Starting the script..."
-echo "#####################"
+printf "#####################"
 echo -n "Hello,";echo "World"
-echo  "#####################"
+printf  "#####################"
 #Enable Backslash Escapes
 
 echo -e "Hello \nWorld!"
-echo "##################"
+printf "##################"
 #Disable Backslash Escapes
 
 echo -E "Hello \nWorld!"
-echo "#################"
+printf "#################"
 echo "Script finished."
 
-echo "##################"
+printf "##################"
 echo "That's all, folks."
-echo "##################"
+printf "##################"
