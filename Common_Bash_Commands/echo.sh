@@ -13,11 +13,13 @@ echo -n "Hello,";echo "World"
 printf  "#####################"
 #Enable Backslash Escapes
 
+#shellcheck disable=SC2028
 echo -e "Hello\nWorld!"
 printf "##################"
 #Disable Backslash Escapes
 
-echo -E "Hello \nWorld!"
+#shellcheck disable=SC2028
+echo -E "Hello\nWorld!"
 printf "#################"
 echo "Script finished."
 
