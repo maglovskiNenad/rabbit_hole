@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# The cd command is used to change the current working directory in the terminal
-# The cd command supports several useful options for navigating directories:
-# cd .. => Move up one directory level
-# cd ~  =>  Change to the home directory
-# cd -  => Switch to the previous directory
-# cd /  => Change to the root directory
+#The cd command is used to change the current working directory in the terminal
+#The cd command supports several useful options for navigating directories:
+#cd .. => Move up one directory level
+#cd ~  =>  Change to the home directory
+#cd -  => Switch to the previous directory
+#cd /  => Change to the root directory
 
-# How to use:
-# cd directory_name
+#How to use:
+#cd directory_name
 
 echo "Lets start: "
 
@@ -16,7 +16,7 @@ echo "We are in: "
 
 pwd
 
-echo "We want to change current working directory" 
+echo "We want to change current working directory"
 
 cd ~
 
