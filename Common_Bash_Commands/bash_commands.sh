@@ -30,7 +30,7 @@ echo "So let us go to Desktop"
 
 #$HOSTNAME is used to create a unique path for each system based on its hostname.
 #Quotes protect paths containing spaces or special characters.
-cd /home/${HOSTNAME}/Desktop || exit
+cd /home/"${HOSTNAME}"/Desktop || exit
 
 echo "We confirm:"
 
