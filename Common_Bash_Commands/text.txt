@@ -1,0 +1,88 @@
+SYSTEM REPORT - TRAINING SERVER
+
+Date: 2026-10-02
+Hostname: training-server
+Environment: development
+
+--------------------------------------------------
+USER ACTIVITY
+--------------------------------------------------
+
+User: alice
+Status: active
+Role: administrator
+Last login: 08:15
+Failed logins: 0
+
+User: bob
+Status: active
+Role: developer
+Last login: 08:42
+Failed logins: 2
+
+User: charlie
+Status: inactive
+Role: support
+Last login: 2026-09-28
+Failed logins: 5
+
+User: david
+Status: active
+Role: developer
+Last login: 09:05
+Failed logins: 1
+
+--------------------------------------------------
+SERVICE STATUS
+--------------------------------------------------
+
+nginx: running
+ssh: running
+docker: running
+mysql: stopped
+cron: running
+backup-service: failed
+
+--------------------------------------------------
+DISK USAGE
+--------------------------------------------------
+
+/dev/sda1 45%
+/dev/sda2 72%
+/dev/sdb1 91%
+/dev/sdc1 23%
+
+--------------------------------------------------
+NETWORK CONNECTIONS
+--------------------------------------------------
+
+192.168.10.15:22 ESTABLISHED
+192.168.10.21:443 ESTABLISHED
+192.168.10.34:22 CLOSED
+10.10.0.5:8080 LISTENING
+10.10.0.8:3306 LISTENING
+
+--------------------------------------------------
+SECURITY EVENTS
+--------------------------------------------------
+
+WARNING Failed SSH login from 192.168.10.50
+INFO User alice logged in successfully
+WARNING Failed SSH login from 192.168.10.50
+ERROR backup-service failed to start
+INFO nginx service restarted successfully
+WARNING Disk /dev/sdb1 usage above 90 percent
+INFO User david logged in successfully
+WARNING Failed SSH login from 10.10.0.44
+ERROR mysql service is not running
+
+--------------------------------------------------
+BACKUP JOBS
+--------------------------------------------------
+
+backup-home SUCCESS 08:00
+backup-etc SUCCESS 08:10
+backup-database FAILED 08:20
+backup-logs SUCCESS 08:30
+
+END OF REPORT
